@@ -1,0 +1,6 @@
+---
+applications:
+- name: secret-harbor
+  memory: 64M
+  disk_quota: 256M
+  buildpack: https://github.com/LeoKotschenreuther/python-tesseract-buildpack

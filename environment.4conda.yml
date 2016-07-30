@@ -1,0 +1,7 @@
+name: secret-harbor
+dependencies:
+- python==2.7.11
+- gunicorn
+- pip:
+  - Flask==0.10.1
+  - Werkzeug==0.10.4
